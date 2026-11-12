@@ -1,0 +1,33 @@
+# Dataset files (excluded due to large size ~2GB)
+# Download from: https://www.kaggle.com/datasets/bytadit/transactional-ecommerce
+dataset/*
+!dataset/.gitkeep
+
+# Large generated workload CSV files
+workload/workloadOutput/*.csv
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Temporary files & logs
+*.log
+scratch/
+extracted_report.txt
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

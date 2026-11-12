@@ -1,0 +1,52 @@
+{
+    "workload": "skewed",
+    "migration_count": 6,
+    "score": {
+        "migration_cost": 66598404,
+        "workload_imbalance": 0.0850693076614592
+    },
+    "migrations": [
+        {
+            "group_id": "transactions_G2",
+            "table": "transactions",
+            "current_server": "slave3",
+            "target_server": "slave1",
+            "migration_cost": 12797772
+        },
+        {
+            "group_id": "transactions_G3",
+            "table": "transactions",
+            "current_server": "slave3",
+            "target_server": "slave1",
+            "migration_cost": 12797772
+        },
+        {
+            "group_id": "transactions_G4",
+            "table": "transactions",
+            "current_server": "slave3",
+            "target_server": "slave1",
+            "migration_cost": 12797772
+        },
+        {
+            "group_id": "transactions_G7",
+            "table": "transactions",
+            "current_server": "slave3",
+            "target_server": "slave1",
+            "migration_cost": 12797772
+        },
+        {
+            "group_id": "transactions_G8",
+            "table": "transactions",
+            "current_server": "slave3",
+            "target_server": "slave1",
+            "migration_cost": 12797772
+        },
+        {
+            "group_id": "customer_G2",
+            "table": "customer",
+            "current_server": "slave3",
+            "target_server": "slave1",
+            "migration_cost": 2609544
+        }
+    ]
+}
